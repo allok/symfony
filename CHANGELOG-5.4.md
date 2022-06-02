@@ -7,6 +7,11 @@ in 5.4 minor versions.
 To get the diff for a specific change, go to https://github.com/symfony/symfony/commit/XXX where XXX is the change hash
 To get the diff between two versions, go to https://github.com/symfony/symfony/compare/v5.4.0...v5.4.1
 
+
+* 5.4.10 (2022-06-02)
+
+ * Add a `prototype_options` option to `CollectionType`
+
 * 5.4.9 (2022-05-27)
 
  * bug #46386 [Console]  Fix missing negative variation of negatable options in shell completion (GromNaN)
@@ -119,7 +124,7 @@ To get the diff between two versions, go to https://github.com/symfony/symfony/c
  * bug #45691 [Mailer] fix: stringify from address for ses+api transport (everyx)
  * bug #45696 Make FormErrorIterator generic (VincentLanglet)
  * bug #45676 [Process] Don't return executable directories in PhpExecutableFinder (fancyweb)
- * bug #45564 [symfony/mailjet-mailer] Fix invalid mailjet error managment (alamirault, fancyweb)
+ * bug #45564 [symfony/mailjet-mailer] Fix invalid mailjet error management (alamirault, fancyweb)
  * bug #45697 [Security] Fix return value of `NullToken::getUser()` (chalasr)
  * bug #45719 typehint of DkimOptions algorithm wrong (markusramsak)
  * bug #45702 [Form] Fix the usage of the Valid constraints in array-based forms (stof)
